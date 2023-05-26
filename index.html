@@ -6,9 +6,23 @@
   <!-- Page Information
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>LittleLink</title>
-  <meta name="description" content="Find us online!">
-  <meta name="author" content="Seth Cottle">
+  <title>all links for cheng yang</title>
+  <meta name="description" content="Find cheng online!">
+  <meta name="author" content="Cheng Yang">
+
+  <script>
+    window.onload = function () {
+      var utmParams = "?utm_source=yangcheng.me&utm_medium=web&utm_campaign=general_referral";
+      var links = document.getElementsByTagName("a");
+      for (var i = 0; i < links.length; i++) {
+        var link = links[i];
+        if (link.hostname != window.location.hostname) {
+          link.href += utmParams;
+        }
+      }
+    }
+  </script>
+
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -69,6 +83,8 @@
         <h1>Cheng Yang</h1>
 
         <!-- Short Bio -->
+
+
         <p>Hi, please find me on the following sites while I continue to finish more work on <a
             href="https://circolo.us">CIRCOLO</a> before making this site better</p>
 
