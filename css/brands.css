@@ -742,6 +742,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* X */
+.button.button-x {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-x:hover,
+.button.button-x:focus {
+  filter: brightness(90%);
+}
+
 /* Xing */
 .button.button-xing {
   color: #ffffff;
